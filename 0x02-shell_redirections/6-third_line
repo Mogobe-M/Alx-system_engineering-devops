@@ -1,2 +1,2 @@
 #!/bin/bash
-awk '$NL == 3 {print}' lacta\
+head -3 lacta | tail -1
